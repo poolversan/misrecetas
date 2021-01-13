@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Etiquetas</title>
 </head>
+
 <body>
     <h2>Etiquetas Texto</h2>
     <h1 id="uno">TITULAR</h1>
@@ -15,20 +17,28 @@
     <h6 id="dos">Nada importante</h6>
     <p>Tiene salto de línea incluido y un font side de 1em</p>
     <p>Se podría decir está en block</p>
-    <span>No tiene salto de línea y se ven seguidos. &nbsp;</span>   
+    <span>No tiene salto de línea y se ven seguidos. &nbsp;</span>
     <span>Esto es otro Span y se ve a continuación</span>
-    <p>Lorem ipsum <strong>NEGRITA: dolor sit amet consectetur</strong>   adipisicing elit.&nbsp;Aquí meto un salto de línea. <br>Reiciendis enim harum placeat aspernatur blanditiis saepe repudiandae totam culpa perferendis, dolores et corporis quisquam perspiciatis earum tempora fuga! Quis, repudiandae tempore.</p>
-    <p>Lorem ipsum dolor sit amet <em><strong>ITALICA:</strong>  consectetur adipisicing elit.</em>   In libero temporibus voluptatibus quod veritatis illum, non, eveniet illo doloremque ad tempora sed perspiciatis? Nemo, eaque similique saepe itaque dignissimos ab.</p>
+    <p>Lorem ipsum <strong>NEGRITA: dolor sit amet consectetur</strong> adipisicing elit.&nbsp;Aquí meto un salto de
+        línea. <br>Reiciendis enim harum placeat aspernatur blanditiis saepe repudiandae totam culpa perferendis,
+        dolores et corporis quisquam perspiciatis earum tempora fuga! Quis, repudiandae tempore.</p>
+    <p>Lorem ipsum dolor sit amet <em><strong>ITALICA:</strong> consectetur adipisicing elit.</em> In libero temporibus
+        voluptatibus quod veritatis illum, non, eveniet illo doloremque ad tempora sed perspiciatis? Nemo, eaque
+        similique saepe itaque dignissimos ab.</p>
     <p>Tiene salto de línea incluido y un font side de 1em</p>
     <p>Se podría decir está en block</p>
-    <span>No tiene salto de línea y se ven seguidos. &nbsp;</span>   
+    <span>No tiene salto de línea y se ven seguidos. &nbsp;</span>
     <span>Esto es otro Span y se ve a continuación</span>
-    <p>Lorem ipsum <strong>NEGRITA: dolor sit amet consectetur</strong>   adipisicing elit.&nbsp;Aquí meto un salto de línea. <br>Reiciendis enim harum placeat aspernatur blanditiis saepe repudiandae totam culpa perferendis, dolores et corporis quisquam perspiciatis earum tempora fuga! Quis, repudiandae tempore.</p>
-    <p>Lorem ipsum dolor sit amet <em><strong>ITALICA:</strong>  consectetur adipisicing elit.</em>   In libero temporibus voluptatibus quod veritatis illum, non, eveniet illo doloremque ad tempora sed perspiciatis? Nemo, eaque similique saepe itaque dignissimos ab.</p>
+    <p>Lorem ipsum <strong>NEGRITA: dolor sit amet consectetur</strong> adipisicing elit.&nbsp;Aquí meto un salto de
+        línea. <br>Reiciendis enim harum placeat aspernatur blanditiis saepe repudiandae totam culpa perferendis,
+        dolores et corporis quisquam perspiciatis earum tempora fuga! Quis, repudiandae tempore.</p>
+    <p>Lorem ipsum dolor sit amet <em><strong>ITALICA:</strong> consectetur adipisicing elit.</em> In libero temporibus
+        voluptatibus quod veritatis illum, non, eveniet illo doloremque ad tempora sed perspiciatis? Nemo, eaque
+        similique saepe itaque dignissimos ab.</p>
     <a href="#cuatro">Vamos a las listas!!!!!!<br><br></a>
     <h2><strong>Links</strong></h2>
     <a href="https://socicredit.com">Vamos a ver si va <br><br></a>
-    <a href="https://reformasactivox.es" target="blank">  Vamos a ver otra página<br><br></a>
+    <a href="https://reformasactivox.es" target="blank"> Vamos a ver otra página<br><br></a>
     <a href="mailto:poolversan@hotmail.com">Enviame un mail <br><br> </a>
     <hr>
     <img id="tres" src="images/android-icon-192x192.png" alt="Mostrar imagenes">
@@ -61,15 +71,15 @@
             <th>Th Nombre</th>
             <th>Nota</th>
         </tr>
-        <tr>    
+        <tr>
             <td>Td Luis</td>
             <td>Td 8</td>
         </tr>
-        <tr>    
+        <tr>
             <td>Td Carlos</td>
             <td>Td 6</td>
         </tr>
-        <tr>    
+        <tr>
             <td>Td Pepe</td>
             <td>Td 7,5</td>
         </tr>
@@ -91,10 +101,30 @@
             <option value="">Rojo</option>
             <option value="">Verde</option>
         </select>
-        <input type="submit" value="Enviamos?">
+        <br><br>
+        <input type="submit" value="Enviamos?" disabled>
+        <!--DISABLED desabilita el boton de enviar, para validar formularios -->
+        <button>Enviamos con Button?</button>
         <hr>
         <br>
     </form>
+    <hr>
+    <form action="">
+        <label for="">Tu nombre
+            <input type="text"></label>
+        <!--Con el LABEL el cursor cambia y al clicar se va directo al formulario-->
+        <br><br>
+        <label for=""> Contraseña
+            <input type="password" name="" id=""></label>
+        <br>
+        <br>
+        <button>Enviar</button>
+        <label for=""></label>
+        <br><br>
+        <textarea placeholder="Introduce tu texto" name="" id="" cols="30" rows="10"></textarea>
+        <!--con el TEXTAREA puede ampliarse la zona del recuadro del texto y poner varias líneas-->
+    </form>
     <br><br>
 </body>
+
 </html>
