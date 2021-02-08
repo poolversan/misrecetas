@@ -10,21 +10,24 @@ body{
 /*img{
     max-width: 100%;
   }*/
-  .tit{
-    font-family:'AR BERKLEY, Segoe UI, Tahoma, Geneva, Verdana, sans-serif';
+ .tit{
+    /*font-family:'AR BERKLEY, Segoe UI, Tahoma, Geneva, Verdana, sans-serif';
     text-decoration: olive;
     font-style: italic;
     text-align: center;
     color:  rgb(247, 22, 22);
     text-decoration: underline;
-    font-size: 300%;
-    margin-left: 30%;
+    font-size: 300%;*/
+    margin-left: 38%;
+    width: 48%;
+    opacity: .5;
+    height: 17em;
 }
 .va{
  text-align: center;
  font-size: 170%;
  color: rgb(255, 228, 105);
- margin-left: 30%;
+ margin-left: 24%;
 }
 a:link, a:visited, a:active a:hover {
     text-decoration:none;
@@ -97,12 +100,16 @@ img{
         width: 70%;
         height: 15%;
         margin-top: 48em;
+        border-radius: 10px;
+        background-color: aquamarine;
+      
       }
 .pie3{
     font-size: 150%;
     text-align: center;
     color: rgb(252, 0, 0);
-    margin-left: 34em;
+    margin-left: 70%;
+    width: 30%;
 }
 .dia{
     font-size: 240%;

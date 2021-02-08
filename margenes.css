@@ -1,0 +1,64 @@
+/* margenes y padding */
+
+.mb-02{
+    margin-bottom: 0.2em;
+}
+.mb-03{
+   margin-bottom: 0.3em;
+}
+.mb-04{
+   margin-bottom: 0.4em;
+}
+.mb-05{
+    margin-bottom: 0.5em;
+}
+.mb-1 {
+   margin-bottom: 1em;
+}
+
+.mb-2 {
+   margin-bottom: 2em;
+}
+.mb-3 {
+   margin-bottom: 3em;
+}
+.mbr-4{
+   margin-left: 5em;
+}
+.pd1{
+   padding: 1em;
+}
+.pd2{
+   padding: 2em;
+}
+
+/*BARRA DE NAVEGACIÓN*/
+.nav-main ul {
+   display: flex;
+   color: rgb(134, 136, 114);    
+}
+
+.nav-main li {
+   margin-right: .5em;      
+}
+
+.nav-main li:last-child {
+   margin-right: 0;
+}
+
+.nav-main a {
+   color: rgb(64, 68, 59);
+}
+
+.nav-main a:hover {
+   color: rgb(83, 174, 226);
+   text-decoration: underline;
+}
+
+.nav-main .separator {
+   color: rgb(240, 175, 145);
+}
+
+section {
+   
+}

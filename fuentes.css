@@ -1,0 +1,50 @@
+/*FUENTES*/
+.fnt-8 {
+    font-size: clamp(0.3rem, 2vw, 1.2rem); 
+}
+.fnt-12 {
+    font-size: clamp(0.1rem, 2vw, 1rem);    
+}
+.fnt-16 {
+    font-size: clamp(0.1rem, 2vw, 1rem);     
+}
+
+.fnt-18 {
+    font-size: clamp(0.1rem, 2vw, 1rem);     
+}
+
+.fnt-20 {
+    font-size: clamp(0.1rem, 2vw, 1rem); 
+}
+
+.fnt-22 {
+    font-size: clamp(0.1rem, 2vw, 1rem);   
+}
+.fnt-26{
+    font-size: 26px;
+}
+.text-center{
+    text-align: center;
+}
+.text.right{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+.line-normal{
+    line-height: 1;
+}
+/*FONDOS*/
+.back-dark{
+    background-color: bisque;
+}
+.back-light{
+    background-color: rgb(168, 240, 240);
+}
+/*FIN FONDOS*/
+
+/*CORNERS*/
+.rounded{
+    border-radius: 12px;
+}
