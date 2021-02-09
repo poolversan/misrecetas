@@ -50,8 +50,8 @@ h2{
     position: relative;
     left: 50%;
     right: 50%;
-    margin-left: -50%;
-    margin-right: -50%;
+    margin-left: -49,5%;
+    margin-right: -49,5%;
 }
 /*FIN LAYOUT*/
  
@@ -59,15 +59,16 @@ section img{
     width: 80%;
     height: 35vh !important;
     object-fit: cover;
-}
+    border-bottom: 7px solid rgb(168, 240, 240);
+}    
 aside img {
     width: 70%;
     height: 8vw !important;
     object-fit: cover;
     align-items: center;
 }
-#footer{
-    background-color: rgb(252, 92, 0);
+.footer{
+    background-color: rgb(168,240,240);
     color: rgb(75, 116, 28);
 }
 .img-md{

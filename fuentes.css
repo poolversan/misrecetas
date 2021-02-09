@@ -48,3 +48,17 @@
 .rounded{
     border-radius: 12px;
 }
+.textp{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+.line-n{
+    line-height: 1.5;
+}
+.text-color{
+color: teal;
+}
+.under:hover{
+    color: rgb(248, 48, 48);
+    text-decoration: underline;
+}
