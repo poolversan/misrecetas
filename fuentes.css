@@ -23,6 +23,12 @@
 .fnt-26{
     font-size: 26px;
 }
+.fnt-30{
+    font-size: 30px;
+}
+.fnt-34{
+    font-size: 34px;
+}
 .text-center{
     text-align: center;
 }
@@ -61,4 +67,7 @@ color: teal;
 .under:hover{
     color: rgb(248, 48, 48);
     text-decoration: underline;
+}
+input {
+    font-size: inherit;
 }
